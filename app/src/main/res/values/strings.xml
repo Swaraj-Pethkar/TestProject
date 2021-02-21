@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TrainLayout</string>
+    <string name="this_is_text_view">This is Text View</string>
+    <string name="this_is_left_text_view">This is Left Text View</string>
+    <string name="this_is_right_text_view">This is Right Text View</string>
+    <string name="button">Button</string>
+    <string name="swaraj">Swaraj</string>
+    <string name="swaraj_gmail_com">swaraj@gmail.com</string>
+    <string name="ganesh">Ganesh</string>
+    <string name="ganesh_gmail_com">ganesh@gmail.com</string>
+    <string name="image">Image</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+</resources>

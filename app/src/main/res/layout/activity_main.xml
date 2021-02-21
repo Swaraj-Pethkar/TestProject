@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageId"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="#A15656"
+            app:srcCompat="@drawable/avatar2" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#050202"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/this_is_text_view"
+            android:textColor="#CC1818"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:hapticFeedbackEnabled="true"
+            android:text="Switch" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/relativePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Relative Layout"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/tablePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Table Layout"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/framePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Frame Layout"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/constraintPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Constraint Layout"
+            app:backgroundTint="#2196F3" />
+    </LinearLayout>
+</LinearLayout>
